@@ -10,3 +10,7 @@ git diff
 git status
 git commit -m "tested"
 git push origin master
+git status
+git add WhatNEXT/MohansNotes.txt
+git commit -m "notes edited"
+git push origin master
