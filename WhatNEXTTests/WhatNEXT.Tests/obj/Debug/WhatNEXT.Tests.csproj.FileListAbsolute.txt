@@ -1,1 +1,16 @@
 D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\bin\Debug\WhatNEXT.Tests.dll
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\bin\Debug\WhatNEXT.Tests.pdb
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\bin\Debug\Ninject.dll
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\bin\Debug\nunit-console-runner.dll
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\bin\Debug\nunit.framework.dll
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\bin\Debug\WhatNEXT.exe
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\bin\Debug\nunit.util.dll
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\bin\Debug\nunit.core.interfaces.dll
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\bin\Debug\nunit.core.dll
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\bin\Debug\WhatNEXT.pdb
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\bin\Debug\Ninject.pdb
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\bin\Debug\Ninject.xml
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\bin\Debug\nunit.framework.xml
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\obj\Debug\WhatNEXT.Tests.dll
+D:\development\WhatNEXT\WhatNEXTTests\WhatNEXT.Tests\obj\Debug\WhatNEXT.Tests.pdb

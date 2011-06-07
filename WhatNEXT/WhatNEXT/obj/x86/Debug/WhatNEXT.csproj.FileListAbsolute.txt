@@ -1,1 +1,8 @@
 D:\development\WhatNEXT\WhatNEXT\WhatNEXT\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\development\WhatNEXT\WhatNEXT\WhatNEXT\bin\Debug\WhatNEXT.exe
+D:\development\WhatNEXT\WhatNEXT\WhatNEXT\bin\Debug\WhatNEXT.pdb
+D:\development\WhatNEXT\WhatNEXT\WhatNEXT\bin\Debug\Ninject.dll
+D:\development\WhatNEXT\WhatNEXT\WhatNEXT\bin\Debug\Ninject.pdb
+D:\development\WhatNEXT\WhatNEXT\WhatNEXT\bin\Debug\Ninject.xml
+D:\development\WhatNEXT\WhatNEXT\WhatNEXT\obj\x86\Debug\WhatNEXT.exe
+D:\development\WhatNEXT\WhatNEXT\WhatNEXT\obj\x86\Debug\WhatNEXT.pdb
