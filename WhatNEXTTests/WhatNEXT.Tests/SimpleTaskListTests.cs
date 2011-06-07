@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-<<<<<<< HEAD
-using System.Text;
-using NUnit.Framework;
-=======
 using System.Net;
 using System.Reflection;
 using System.Text;
@@ -15,7 +11,6 @@ using System.IO;
 
 
 
->>>>>>> upstream/master
 using Ninject;
 using WhatNEXT;
 
@@ -35,11 +30,7 @@ namespace WhatNEXT.Tests
 
             list.AddTask(new TaskItem() { ID = 1});
 
-<<<<<<< HEAD
-            Assert.AreEqual(simpleTaskList.GetCount(), 1);
-=======
             Assert.AreEqual(list.GetCount(), 1);
->>>>>>> upstream/master
         }
 
         [Test]
@@ -50,9 +41,6 @@ namespace WhatNEXT.Tests
             list.AddTask(new TaskItem() { ID = 1 });
             list.AddTask(new TaskItem() { ID = 2 });
 
-<<<<<<< HEAD
-            Assert.AreEqual(simpleTaskList.GetCount(), 2);
-=======
             Assert.AreEqual(list.GetCount(), 2);
         }
 
@@ -67,7 +55,6 @@ namespace WhatNEXT.Tests
 
             Assert.Throws<ApplicationException>(() => { throw new ApplicationException(); });
 
->>>>>>> upstream/master
         }
    
         [Test]
@@ -77,11 +64,7 @@ namespace WhatNEXT.Tests
 
             list.AddTask(new TaskItem() { ID = 1 });
 
-<<<<<<< HEAD
-            TaskItem t = simpleTaskList.FindTaskByID(1);
-=======
             TaskItem t = list.FindTaskByID(1);
->>>>>>> upstream/master
 
             Assert.IsTrue(t.ID == 1);
         }
@@ -89,20 +72,11 @@ namespace WhatNEXT.Tests
         [Test]
         public void UpdateTask()
         {
-<<<<<<< HEAD
-
-            ITaskList list = TaskListFactory.GetInstance().CreateList();
-            list.AddTask(new TaskItem() { ID = 1 });
-            TaskItem taskBeforeUpdate = simpleTaskList.FindTaskByID(1);
-            simpleTaskList.UpdateTask(new TaskItem() { ID = 1, Details = "Updated Task Details" });
-            TaskItem taskAfterUpdate = simpleTaskList.FindTaskByID(1);
-=======
             ITaskList list = TaskListFactory.GetInstance().CreateList();
             list.AddTask(new TaskItem() { ID = 1 });
             TaskItem taskBeforeUpdate = list.FindTaskByID(1);
             list.UpdateTask(new TaskItem() { ID = 1, Details = "Updated Task Details" });
             TaskItem taskAfterUpdate = list.FindTaskByID(1);
->>>>>>> upstream/master
             Assert.AreNotEqual(taskBeforeUpdate.Details, taskAfterUpdate.Details);
         }
 
@@ -112,16 +86,9 @@ namespace WhatNEXT.Tests
         [ExpectedException(typeof(ApplicationException))]
         public void UpdateTask_To_TaskListWithZeroTasks_ThrowsTaskDoesNotExistException()
         {
-<<<<<<< HEAD
-            list.AddTask(new TaskItem() { ID = 1 });
-
-            list.UpdateTask(new TaskItem() { ID = 1000 });
-
-=======
             ITaskList list = TaskListFactory.GetInstance().CreateList();
             list.AddTask(new TaskItem() { ID = 1 });
             list.UpdateTask(new TaskItem() { ID = 1000 });
->>>>>>> upstream/master
             Assert.Throws<ApplicationException>(() => { throw new ApplicationException(); });
 
         }
@@ -130,22 +97,6 @@ namespace WhatNEXT.Tests
         [ExpectedException(typeof(ApplicationException))]
         public void UpdateTask_To_TaskListWithOneOrMoreTasks_TaskIDDoesNotExist_ThrowsTaskDoesNotExistException()
         {
-<<<<<<< HEAD
-
-            var simpleTaskList = kernel.Get<ITaskList>();
-
-            simpleTaskList.UpdateTask(new TaskItem() { ID = 1001 });
-
-            Assert.Throws<ApplicationException>(() => { throw new ApplicationException(); });
-        }
-
-        [TestFixtureTearDown]
-        public void TearDown()
-        {
-            kernel.Dispose();
-        }
-    }
-=======
             ITaskList list = TaskListFactory.GetInstance().CreateList();
             list.AddTask(new TaskItem() { ID = 1 });
             list.UpdateTask(new TaskItem() { ID = 1001 });
@@ -235,5 +186,4 @@ namespace WhatNEXT.Tests
 
     
 
->>>>>>> upstream/master
 }

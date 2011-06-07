@@ -23,10 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-<<<<<<< HEAD
-=======
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
->>>>>>> upstream/master
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -37,9 +34,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-<<<<<<< HEAD
-  <ItemGroup>
-=======
   <PropertyGroup>
     <StartupObject>WhatNEXT.TaskEventGenerator</StartupObject>
   </PropertyGroup>
@@ -48,7 +42,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>NinjectBinaries\Ninject.dll</HintPath>
     </Reference>
->>>>>>> upstream/master
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -58,13 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Compile Include="ITaskList.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SimpleTaskList.cs" />
-    <Compile Include="TaskItem.cs" />
-=======
     <Compile Include="ConsoleTaskEventNotifier.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="ITaskListWithEvents.cs" />
@@ -85,7 +71,6 @@
     <Content Include="NinjectBinaries\Ninject.dll" />
     <Content Include="NinjectBinaries\Ninject.pdb" />
     <Content Include="NinjectBinaries\Ninject.xml" />
->>>>>>> upstream/master
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,14 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-<<<<<<< HEAD
-using System.Linq;
-using System.Text;
-using System.Threading;
-
-namespace WhatNEXT
-{
-    public class SimpleTaskList: ITaskList
-=======
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -19,7 +10,6 @@ using System.Xml.Serialization;
 namespace WhatNEXT
 {
     public class SimpleTaskList : ITaskList     
->>>>>>> upstream/master
     {
         private List<TaskItem> taskItems = new List<TaskItem>();
 
@@ -28,24 +18,6 @@ namespace WhatNEXT
             get { return taskItems; }
         }
 
-<<<<<<< HEAD
-        public void AddTask(TaskItem taskItem)
-        {
-            if (taskItem != null)
-            {
-                TaskItems.Add(taskItem);
-            }
-            else
-            {
-                throw new ApplicationException("");
-            }
-        }
-        public void UpdateTask(TaskItem taskItemUpdated)
-        {
-            TaskItem taskItemCurrent = FindTaskByID(taskItemUpdated.ID.ToString());
-
-            if(taskItemCurrent != null)
-=======
         public SimpleTaskList()
         {
             Console.WriteLine("from simpletasklist added");
@@ -67,7 +39,6 @@ namespace WhatNEXT
             TaskItem taskItemCurrent = FindTaskByID(taskItemUpdated.ID);
 
             if (taskItemCurrent != null)
->>>>>>> upstream/master
             {
                 TaskItems[TaskItems.IndexOf(taskItemCurrent)] = taskItemUpdated;
             }
@@ -76,25 +47,12 @@ namespace WhatNEXT
                 throw new ApplicationException();
             }
         }
-<<<<<<< HEAD
-        public TaskItem FindTaskByID(string taskID)
-        {
-            TaskItem taskItem = TaskItems.Find((t) => t.ID == Convert.ToInt64(taskID));
-
-            if (taskItem != null)
-                return taskItem;
-
-            throw new ApplicationException();
-        }
-
-=======
         public TaskItem FindTaskByID(Int64 taskID)
         {
 
             return TaskItems.Find((t) => t.ID == taskID);
 
         }
->>>>>>> upstream/master
         public long GetCount()
         {
             return TaskItems.Count;
@@ -104,8 +62,6 @@ namespace WhatNEXT
         {
             return TaskItems.IndexOf(t);
         }
-<<<<<<< HEAD
-=======
 
         public override string ToString()
         {
@@ -138,6 +94,5 @@ namespace WhatNEXT
         {
             return TaskItems;
         }
->>>>>>> upstream/master
     }
 }
