@@ -1,0 +1,17 @@
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\bin\Debug\WhatNEXTUI.exe
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\bin\Debug\WhatNEXTUI.pdb
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\App.baml
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\MainWindow.baml
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\App.g.cs
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\MainWindow.g.cs
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\WhatNEXTUI_MarkupCompile.cache
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\WhatNEXTUI.g.resources
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\WhatNEXTUI.Properties.Resources.resources
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\WhatNEXTUI.exe
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\WhatNEXTUI.pdb
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\bin\Debug\Ninject.dll
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\bin\Debug\Ninject.pdb
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\bin\Debug\Ninject.xml
