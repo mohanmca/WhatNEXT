@@ -1,0 +1,245 @@
+/********************************************************************
+*  GENERAL ELEMENTS
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+a img {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+a:hover {
+    background-color: #ffb;
+}
+
+/********************************************************************
+*  TOP - LINKS AND SEARCH
+*/
+
+#links {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+form {
+    margin-bottom: 0px;
+}
+
+#logo img {
+    vertical-align: bottom;
+}
+
+#hoogle, #submit {
+    font-size: 16px;
+    margin-bottom: 16px;
+    vertical-align: bottom;
+}
+
+#hoogle {
+    width: 300px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#submit {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/********************************************************************
+*  LEFT - EXTRA SUGGESTIONS
+*/
+
+#left {
+    float: left;
+    width: 140px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+#left li {
+    list-style-type: none;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    display: block;
+}
+
+#left a {
+    color: #0E7700;
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+
+#left .plus {
+    padding-right: 16px;
+    background-image: url(more_small.png);
+    background-position: center right;
+}
+
+#left .pad {
+    padding-left: 16px;
+}
+
+#left .minus {
+    color: #770E00;
+    padding-left: 16px;
+    background-image: url(less_small.png);
+    background-position: center left;
+}
+
+
+/********************************************************************
+*  BOTTOM - COPYRIGHT MESSAGE
+*/
+
+#footer {
+    text-align: center;
+}
+
+
+/********************************************************************
+*  HEADING
+*/
+
+h1 {
+    padding: 5px;
+    margin-top: 0px;
+    font-weight: normal;
+    /* background for the heading must be gray,
+       to make type searching visisble */
+    background-color: #e4e4e4;
+    border-top: 1px solid #999;
+    padding-left: 170px;
+    font-size: 16px;
+}
+
+p {
+    margin-left: 170px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+
+/********************************************************************
+*  SPECIAL PAGES
+*/
+
+.error {
+    border-bottom: 2px solid red;
+    text-decoration: none;
+    white-space: pre;
+}
+
+#example {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 3px;
+    width: 400px;
+    border: 2px solid #cc0;
+    background-color: #ffc;
+    text-align: left;
+}
+
+#example a {
+    margin-left: 20px;
+}
+
+
+/********************************************************************
+*  RESULTS
+*/
+
+.ans, .doc, .from {
+    margin-left: 170px;
+    margin-right: 20px;
+}
+
+a.dull, a.dull:hover {
+    background-color: white;
+    text-decoration: none;
+}
+
+/** ANSWERS **/
+
+.ans i {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.ans {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.ans .a {
+    color: #2200C1;
+}
+
+.ans a.dull {
+    color: black;
+}
+
+.c0{background-color: #fcc;}
+.c1{background-color: #cfc;}
+.c2{background-color: #ccf;}
+.c3{background-color: #ffc;}
+.c4{background-color: #fcf;}
+.c5{background-color: #cff;}
+
+.more, .more:visited {
+    padding-left: 16px;
+    background-image: url(more_blue.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    color: blue;
+}
+
+/** PARENTS **/
+
+.p1, .p2 {
+    white-space: nowrap;
+    text-decoration: none;
+    color: #0E774A;
+}
+
+/** DOCS **/
+/*
+docs may be in one of three states:
+    .doc - shut and no icon
+    .doc.shut - shut with an icon to expand
+    .doc.open - open with an icon to collapse
+*/
+
+.doc {
+    font-size: 11px;
+    background-repeat: no-repeat;
+    background-position: 2px left;
+}
+.doc, .doc a {
+    color: #888;
+}
+
+.open, .shut {padding-left: 13px;}
+.open {background-image: url(less_gray.png);}
+.shut {background-image: url(more_gray.png);}
+
+.doc, .shut {
+    max-height: 1.5em;
+    overflow: hidden;
+}
+.open {
+    max-height: 100%;
+    white-space: pre-wrap;
+}
