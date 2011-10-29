@@ -17,3 +17,5 @@ D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\bin\Debug\Ninject.pdb
 D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\bin\Debug\Ninject.xml
 D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\bin\Debug\WhatNEXT.exe
 D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\bin\Debug\WhatNEXT.pdb
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\Window1.baml
+D:\development\WhatNEXT\WhatNEXT\WhatNEXTUI\obj\x86\Debug\Window1.g.cs

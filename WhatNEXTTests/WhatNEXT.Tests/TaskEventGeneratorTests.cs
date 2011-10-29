@@ -19,7 +19,7 @@ namespace WhatNEXT.Tests
         [Test]
         public void TestAddTaskEvent()
         {
-            ITaskList list = TaskListFactory.GetInstance().CreateList();
+            ITaskList list = WhatNextFacade.GetInstance().CreateTaskList();
 
             ((ITaskListWithEvents)list).Add +=
                 delegate(object sender, TaskAddEventArgs e)

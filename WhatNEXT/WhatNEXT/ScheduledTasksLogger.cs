@@ -9,14 +9,12 @@ namespace WhatNEXT
 {
     public class ScheduledTasksLogger
     {
-        private TaskScheduler taskScheduler;
-        public ScheduledTasksLogger(TaskScheduler taskScheduler)
-        {
-            this.taskScheduler = taskScheduler;
-            this.taskScheduler.Schedule += new TaskSchedulerEventHandler(taskScheduler_Schedule);
+        
+        public ScheduledTasksLogger()
+        {   
         }
 
-        void taskScheduler_Schedule(object sender, TaskScheduleEventArgs e)
+        public void taskScheduler_Schedule(object sender, TaskScheduleEventArgs e)
         {
             Console.WriteLine("command interpreter Thread id: {0}", Thread.CurrentThread.ManagedThreadId);
             Console.WriteLine("Command Interpreter: Task ID: {0} TaskTime: {1}", e.Task.ID, e.Task.TimeReminder);
@@ -25,15 +23,15 @@ namespace WhatNEXT
 
         private void WriteTaskToFile(TaskItem taskItem)
         {
-            string mydocpath = @"C:\Users\manikandan\Desktop";
+            string mydocpath = @"C:\";
            //Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
 
             var sb = new StringBuilder();
             sb.AppendLine("= = = = = =");
             sb.AppendLine(System.DateTime.Now.ToShortTimeString());
-            sb.Append("Task ID:" + taskItem.ID);
-            sb.Append("Task Details:" + taskItem.Details);
-            sb.Append("Task Schduled:" + taskItem.TimeReminder);
+            sb.AppendLine("Task ID:" + taskItem.ID);
+            sb.AppendLine("Task Details:" + taskItem.Details);
+            sb.AppendLine("Task Schduled:" + taskItem.TimeReminder);
             sb.AppendLine();
             sb.AppendLine("= = = = = =");
 
